@@ -1,2 +1,9 @@
 @import "tailwindcss";
 @plugin "tailwindcss-motion";
+html {
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
