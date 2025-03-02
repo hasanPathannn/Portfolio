@@ -6,10 +6,10 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
-    <div className='w-screen h-screen mt-9 p-2 md:flex md:mt-0 flex-row text-white justify-center gap-4 items-center '>
+    <div className='w-screen h-screen mt-15 p-2 md:flex md:mt-0 flex-row text-white justify-center gap-4 items-center '>
         
         <div className='flex flex-row justify-center mb-2 '>
-            <img src={myPhoto} className='w-80 md:w-120 rounded-full motion-translate-y-in-100 motion-duration-[2s] motion-ease-spring-smooth'/>
+            <img src={myPhoto} className='w-80 md:w-100 rounded-full border-2 border-slate-500 transition-all duration-500 hover:scale-105 motion-translate-y-in-100 motion-duration-[2s] motion-ease-spring-smooth'/>
         </div>
 
         <div className='flex flex-col  items-center justify-center gap-2 motion-translate-x-in-100 motion-duration-[2s] motion-ease-spring-smooth'>
@@ -31,8 +31,8 @@ const Hero = () => {
         
 
             <div className='flex flex-row gap-2  motion-translate-y-in-100 motion-rotate-in-45'>
-                <button className='py-4 border-s-black bg-gray-300 rounded-full m-2 px-6 text-gray-900 font-semibold cursor-pointer transition-transform duration-300 hover:scale-110 hover:rotate-3 '>Download CV</button>
-                <button className='py-4 border-s-black bg-slate-500 rounded-full m-2 px-6 text-gray-950 font-semibold cursor-pointer transition-transform duration-300 hover:scale-110 hover:-rotate-3'>Let's Discuss</button>
+                <a href="https://drive.google.com/file/d/1PHK6L5qdWl5MJQC8p092lRi05WbvtJ_w/view" className='py-4 border-s-black bg-gray-300 rounded-full m-2 px-6 text-gray-900 font-semibold cursor-pointer transition-transform duration-300 hover:scale-110 hover:rotate-3 '>Download CV</a>
+                <a href="#contact" className='py-4 border-s-black bg-slate-500 rounded-full m-2 px-6 text-gray-950 font-semibold cursor-pointer transition-transform duration-300 hover:scale-110 hover:-rotate-3'>Let's Connect</a>
             </div>
 
             <div className='flex flex-row  gap-3 '>

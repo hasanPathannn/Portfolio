@@ -9,7 +9,9 @@ const Footer = () => {
         
         {/* Left Section - Name & Rights */}
         <div className="text-center md:text-left mb-4 md:mb-0">
+            <a href="#">
           <img src={logo} className="w-22 md:w-35 pb-2"/>
+          </a>
           <p className="text-gray-400 text-sm">© {new Date().getFullYear()} All Rights Reserved.</p>
         </div>
 

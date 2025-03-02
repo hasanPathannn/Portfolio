@@ -1,20 +1,28 @@
-import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import { motion } from "framer-motion";
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-   
-    <div className='bg-gray-950'>
+  
+    <div className='bg-gray-950'
+    >
     <Header/>
     <Hero/>
-    <Hero/>
-    <Hero/>
+    <About/>
+    <Projects/>
+    <Skills/>
+    <Contact/>
+    <Footer/>
+    
     </div>
     </>
   )

@@ -65,11 +65,13 @@ const Projects = () => {
                   : "opacity-0 scale-90"
               } shadow-[0px_0px_20px_10px_rgba(255,255,255,0.5)] w-full sm:w-[48%] lg:w-[30%]`}
             >
+                <a href={project.live}>
               <img
                 src={project.img}
                 alt={project.title}
-                className="w-full h-48 object-cover rounded-lg mb-4 transition-transform duration-500 hover:scale-110"
+                className="w-full h-48 object-cover rounded-lg mb-4 transition-transform duration-500 hover:scale-120"
               />
+              </a>
               <h3 className="text-2xl font-semibold text-gray-300">
                 {project.title}
               </h3>
