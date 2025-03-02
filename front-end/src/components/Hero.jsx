@@ -1,5 +1,5 @@
 import React from 'react'
-import myPhoto from '../assets/myPhoto.jpeg'
+import myPhoto2 from '../assets/myPhoto2.jpeg'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import { Typewriter } from "react-simple-typewriter";
@@ -9,7 +9,7 @@ const Hero = () => {
     <div className='w-screen h-screen mt-15 p-2 md:flex md:mt-0 flex-row text-white justify-center gap-4 items-center '>
         
         <div className='flex flex-row justify-center mb-2 '>
-            <img src={myPhoto} className='w-80 md:w-100 rounded-full border-2 border-slate-500 transition-all duration-500 hover:scale-105 motion-translate-y-in-100 motion-duration-[2s] motion-ease-spring-smooth'/>
+            <img src={myPhoto2} className='w-80 md:w-100 rounded-full border-2 border-slate-500 transition-all duration-500 hover:scale-105 motion-translate-y-in-100 motion-duration-[2s] motion-ease-spring-smooth'/>
         </div>
 
         <div className='flex flex-col  items-center justify-center gap-2 motion-translate-x-in-100 motion-duration-[2s] motion-ease-spring-smooth'>

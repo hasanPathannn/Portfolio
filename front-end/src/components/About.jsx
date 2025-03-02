@@ -1,12 +1,22 @@
 import React from 'react';
 import robot_coding from '../assets/robot_coding.jpg';
-import myPhoto2 from '../assets/myPhoto2.jpeg';
+import myPhoto from '../assets/myPhoto.jpeg';
 
 const About = () => {
   return (
     <section id="about" className="text-white w-screen min-h-screen py-16 px-6 md:px-20 bg-gray-950">
       <h2 className="text-4xl font-bold mb-10 text-center text-green-400">About Me</h2>
-      <div className="flex flex-col-reverse md:flex-row items-center gap-10">
+      <div className="flex flex-col md:flex-row items-center gap-10">
+
+        {/* Image Section */}
+        <div className="w-48 md:w-80">
+          <img
+            src={myPhoto}
+            alt="Coding Robot"
+            className="w-full rounded-full border-2 border-slate-500 shadow-lg transition-transform transform hover:scale-105"
+          />
+        </div>
+
         {/* Text Section */}
         <div className="md:w-2/3 text-center md:text-left">
         <p className="text-lg text-gray-300 leading-relaxed">
@@ -43,14 +53,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Image Section */}
-        <div className="w-48 md:w-80">
-          <img
-            src={myPhoto2}
-            alt="Coding Robot"
-            className="w-full rounded-full border-2 border-slate-500 shadow-lg transition-transform transform hover:scale-105"
-          />
-        </div>
+        
       </div>
     </section>
   );
