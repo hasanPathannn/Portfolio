@@ -37,7 +37,7 @@ const Hero = () => {
 
             <div className='flex flex-row  gap-3 '>
                 <a href='https://github.com/hasanPathannn'><img src={github} className='w-13 p-1 bg-white rounded-full transition-all duration-300 hover:shadow-[0_0_20px_#3b82f6]'/></a>
-                <a href='https://www.linkedin.com/in/hasan-khan-b38aa1265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img src={linkedin} className='w-13 bg-white rounded-full p-1 transition-all duration-300 hover:shadow-[0_0_20px_#3b82f6]'/></a>
+                <a href='https://www.linkedin.com/in/pathannnhasan/'><img src={linkedin} className='w-13 bg-white rounded-full p-1 transition-all duration-300 hover:shadow-[0_0_20px_#3b82f6]'/></a>
             </div>
         </div>
     
