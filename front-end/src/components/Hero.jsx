@@ -31,7 +31,7 @@ const Hero = () => {
         
 
             <div className='flex flex-row gap-2  motion-translate-y-in-100 motion-rotate-in-45'>
-                <a href="https://drive.google.com/file/d/1PHK6L5qdWl5MJQC8p092lRi05WbvtJ_w/view" className='py-4 border-s-black bg-gray-300 rounded-full m-2 px-6 text-gray-900 font-semibold cursor-pointer transition-transform duration-300 hover:scale-110 hover:rotate-3 '>Download CV</a>
+                <a href="https://drive.google.com/file/d/15HVkMK0yKCQ0XoXzZk9sI_tLzKQUwcTs/view?usp=sharing" className='py-4 border-s-black bg-gray-300 rounded-full m-2 px-6 text-gray-900 font-semibold cursor-pointer transition-transform duration-300 hover:scale-110 hover:rotate-3 '>Download CV</a>
                 <a href="#contact" className='py-4 border-s-black bg-slate-500 rounded-full m-2 px-6 text-gray-950 font-semibold cursor-pointer transition-transform duration-300 hover:scale-110 hover:-rotate-3'>Let's Connect</a>
             </div>
 
