@@ -13,7 +13,7 @@ const About = () => {
           <img
             src={myPhoto}
             alt="Coding Robot"
-            className="w-full rounded-full border-2 border-slate-500 shadow-lg transition-transform transform hover:scale-105"
+            className="w-full rounded-full border-2 border-slate-500 shadow-lg transition-transform transform  duration-500 hover:scale-105"
           />
         </div>
 
