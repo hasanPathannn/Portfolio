@@ -12,7 +12,7 @@ const Skills = () => {
 
         <div className="grid md:grid-cols-3 gap-12 text-left ">
           {/* Frontend Skills */}
-          <div className="p-6 bg-gray-800 rounded-lg shadow-[0px_0px_20px_10px_rgba(255,165,0,0.8)] md:-motion-translate-y-loop-25 motion-duration-[2s] motion-ease-spring-smooth">
+          <div className="p-6 bg-gray-800 rounded-lg shadow-[0px_0px_20px_10px_rgba(255,165,0,0.8)] hover:scale-110">
             <h3 className="text-3xl font-semibold text-orange-500 flex items-center gap-2">
               Frontend
             </h3>
@@ -27,7 +27,7 @@ const Skills = () => {
           </div>
 
           {/* Backend Skills */}
-          <div className="p-6 bg-gray-800 rounded-lg shadow-[0px_0px_20px_10px_rgba(255,255,0,0.8)] motion-preset-seesaw">
+          <div className="p-6 bg-gray-800 rounded-lg shadow-[0px_0px_20px_10px_rgba(255,255,0,0.8)] motion-preset-seesaw hover:scale-110">
             <h3 className="text-3xl font-semibold text-yellow-400 flex items-center gap-2">
                Backend
             </h3>
@@ -41,7 +41,7 @@ const Skills = () => {
           </div>
 
           {/* Core Skills */}
-          <div className="p-6 bg-gray-800 rounded-lg shadow-[0px_0px_20px_10px_rgba(255,100,100,0.8)] md:-motion-translate-y-loop-25 motion-duration-[2s] motion-ease-spring-smooth">
+          <div className="p-6 bg-gray-800 rounded-lg shadow-[0px_0px_20px_10px_rgba(255,100,100,0.8)] hover:scale-110">
             <h3 className="text-3xl font-semibold text-red-400 flex items-center gap-2">
               Core Skills
             </h3>
